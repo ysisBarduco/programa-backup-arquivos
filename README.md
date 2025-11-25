@@ -2,9 +2,13 @@
 
 ## Dados Acadêmicos
 **Universidade Federal do Paraná**
+
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas
+
 **Disciplina:** DS010 - Administração de Sistemas
+
 **Professor:** Mauro Castro  
+
 **Ano:** 2025  
 
 **Autores:**
