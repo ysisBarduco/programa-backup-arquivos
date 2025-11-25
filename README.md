@@ -1,6 +1,6 @@
 # backup.bash — Sistema de Backup em Shell Script
 
-##Dados Acadêmicos
+## Dados Acadêmicos
 **Universidade Federal do Paraná**
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas
 **Disciplina:** DS010 - Administração de Sistemas
@@ -13,32 +13,19 @@
 
 ---
 
-[Acesse a documentação do Projeto](documentação/DS010 - Projeto Final.pdf)
-
----
-
 ## Sobre o Projeto
-Este projeto consiste em um script em **Shell Script (bash)** para automatizar backups de forma simples e segura, permitindo:
+Este projeto consiste em um programa desenvolvido em Shell Script para automatizar backups de arquivos e diretórios, permitindo salvar múltiplas origens em um diretório de destino local ou remoto. Criado como projeto final da disciplina Administração de Sistemas – DS010, do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da UFPR.
 
-- Seleção de múltiplos diretórios de origem.
-- Validação automática dos diretórios informados.
-- Escolha de um diretório de destino local ou remoto.
-- Uso de **rsync** para sincronização eficiente.
-- Criação de subpastas individuais no destino para evitar conflitos de nomes.
-- Registro de log detalhado contendo data e hora da execução.
-
-### Funcionalidades principais
-- Backup de múltiplas pastas  
--  Logs automáticos  
--  Sincronização com `rsync`  
--  Verificação de diretórios  
-- Exclusão de arquivos obsoletos com `--delete`  
+[Acesse a documentação do Projeto](/Documentação/DS010 - Projeto Final.pdf)
 
 ---
 
 ## Como Executar o Programa
+No terminal:
+- Dê permissão de execução ao script
+ `chmod +x backup.bash`
 
-### Dê permissão de execução ao script
-```bash
-chmod +x backup.bash
+- Execute o programa
+ ` ./backup.bash`
+
 
